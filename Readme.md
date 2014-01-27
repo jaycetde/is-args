@@ -14,6 +14,12 @@ isArgs([1, 2, 3]);
 
 ```
 
+## Installation
+
+    $ npm install is-args
+
+## Limitations
+
 This is not the standard `Object.prototype.toString.call(val) === '[object Arguments]'` method.
 This method is [much faster](http://jsperf.com/is-args-vs-object-prototype-tostring-call) than the `toString` method, 
 however, there is a chance that you may get false positives on objects that resemble arguments:
