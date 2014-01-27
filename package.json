@@ -1,6 +1,6 @@
 {
   "name": "is-args",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Quickly check if a variable is an Arguments object",
   "main": "index.js",
   "directories": {
@@ -19,8 +19,8 @@
     "is"
   ],
   "devDependencies": {
-      "mocha": "*",
-      "should": "*"
+    "mocha": "*",
+    "should": "*"
   },
   "author": "Jayce Pulsipher <jaycemp@gmail.com>",
   "license": "MIT",
